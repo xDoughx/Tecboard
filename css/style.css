@@ -30,8 +30,6 @@ body {
 
 header img {
     display: block;
-    width: 209px;
-    height: 34px;
     margin: 75px 0 0 360px;
 }
 
@@ -52,7 +50,7 @@ p {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    width: 700px;
+    width: 792px;
     margin: 24px auto 0;
 
 }
@@ -87,13 +85,9 @@ section img{
 @media(max-width: 768px){
     header img{
         margin: 65px 0 0 60px;
-    }
-    h1{
-        margin: 72px auto 24px;
-    }
+    }   
 
     p{
-        margin: 0 auto 40px;
         width: 648px;
     }
 
@@ -102,7 +96,9 @@ section img{
         height: 446px;
     }
 }
+
 /* Estilo celular */
+
 @media(max-width: 375px){
     header img{
         margin: 32px 0 0 16px;
@@ -114,7 +110,7 @@ section img{
     
     p{
         font-size: 20px;
-        width: 341px;
+        width: 340px;
     }
 
     section img{
@@ -124,6 +120,6 @@ section img{
 
     a{
         font-size: 20px;
-        width: 250px;
+        width: 251px;
     }
 }
